@@ -59,11 +59,9 @@ const app = {
       );
     });
 
-    if (card) {
-      document
-        .getElementById("btnDisplayAddForm")
-        .addEventListener("click", app.handleClickOnDisplayAddFormButton);
-    }
+    document
+      .getElementById("btnDisplayAddForm")
+      .addEventListener("click", app.handleClickOnDisplayAddFormButton);
 
     form.addEventListener("submit", (e) => {
       e.preventDefault();
